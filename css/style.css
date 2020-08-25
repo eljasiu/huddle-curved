@@ -413,11 +413,14 @@ footer::before{
   .stats .wrapper{
     flex-direction: column;
     align-items: center;
-    gap: 80px;
   }
 
   .stats .stat{
     width: 60%;
+  }
+
+  .stats .stat:first-child{
+    margin-bottom: 80px;
   }
 
   .stats img{
@@ -460,10 +463,10 @@ footer::before{
 
   footer .wrapper{
     flex-direction: column;
-    gap: 80px;
   }
 
   footer .info{
+    margin-top: 80px;
     order: 2;
     width: 100%;
   }
